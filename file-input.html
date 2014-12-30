@@ -55,15 +55,16 @@ that all of your HTML imports are concatenated into one file.__
                 width: 100%;
             }
         </style>
+        <div>
+            <content></content>
 
-        <content></content>
-
-        <input
-            accept="{{accept}}"
-            id="fileInput"
-            on-change="{{changeHandler}}"
-            type="file"
-        >
+            <input
+                accept="{{accept}}"
+                id="fileInput"
+                on-change="{{changeHandler}}"
+                type="file"
+            >
+        </div>
 
     </template>
 
